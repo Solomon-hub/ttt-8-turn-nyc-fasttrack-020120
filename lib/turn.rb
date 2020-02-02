@@ -16,7 +16,7 @@ end
 
 def input_to_index(board)
   input = gets.strip
-  input.to_i
+  input.to_i - 1
 end
 
 def turn(board)
