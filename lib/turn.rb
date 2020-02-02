@@ -15,9 +15,8 @@ def display_board(board)
 end
 
 def input_to_index(board)
-def move(board)
   input = gets.strip
-  input.to_i-1
+  input.to_i
 end
 
 def turn(board)
